@@ -1,0 +1,528 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*::before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	background: #FFFFFF;
+	font-size: 100%;
+	width: 100%;
+	height: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+
+
+.conteiner{
+// title start
+&__title {
+	height: 51px;
+	width: 1694px;
+	left: 226px;
+	top: 0px;
+	border-radius: 0px;
+
+.img1 {
+height: 51px;
+width: 230px;
+left: 230px;
+top: 0px;
+border-radius: 0px;
+}
+.profile {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.img2 {
+	position: absolute;
+	left: 90.64%;
+	right: 6.7%;
+	top: 0.71%;
+	bottom: 94.77%;
+	background-repeat: no-repeat;
+	background-image: url(/images/Vector9.png);
+}
+.img21 {
+	height: 15px;
+	width: 13.1199951171875px;
+	border-radius: 0px;
+	margin: 5px 15px 0 0;
+	
+}
+.name {
+width: 88.96px;
+display: inline-block;
+position: absolute;
+left: 92.89%;
+right: 2.64%;
+top: 1.42%;
+bottom: 97.63%;
+}
+.img3 {
+padding-left: 5px;
+position: absolute;
+left: 97.87%;
+right: 1.35%;
+top: 1.82%;
+bottom: 97.4%;
+}
+}
+&__navigitaion {
+/* Vector */
+padding: 0 0 5px 30px;
+display: flex;
+text-align: left;
+justify-content: left;
+align-items: center;
+background: #F3F2ED;
+height: 48px;
+width: 1864px;
+border-radius: 0px;
+}
+}
+// title end
+.conteiner2 {
+	position: absolute;
+	top: 99px;
+	height: 100%;
+	width: 341px;
+	border-right: 1px solid  #F3F2ED;
+
+
+	&__block1{
+		width: 340px;
+		height: 22px;
+		background: #F9F8F6;
+	}
+	.inp {
+		background-image: url(/images/search.png);
+		background-repeat: no-repeat;
+		background-position: 98%;
+		width: 340px;
+		height: 22px;
+		background-color: #F3F2ED;
+	}
+	// anna i
+	.anna {
+		background-color: #E7E6E1;
+		width: 340px;
+		height: 88px;
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		padding: 0 0 0 98px;
+		line-height: 9px;
+		.annaimg {
+			top: 40px;
+			left: 20px;
+			position: absolute;
+			width: 50px;
+			height: 50px;
+		}
+		.ivanova1{
+			font-size: 14px;
+			opacity: 50%;
+			color: #058DC7;
+			width: 100%;
+		}
+		.ivanova2{
+			font-size: 14px;
+			width: 100%;
+		}
+		.ivanova2::after {
+			content: '12';
+			font-size: 28px;
+			padding: 0 0 0 30px;
+			color: #A2A2A2;
+			
+		}
+		.ivanova3{
+			font-size: 16px;
+			background: #D2154F;
+			opacity: 0.5;
+			width: 45%;
+			height: 15%;
+		}
+	}
+	// viktoria b
+	.viktoria {
+		width: 340px;
+		height: 88px;
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		padding: 5px 0 0 98px;
+		line-height: 9px;
+			.vikaimg {
+				top: 125px;
+			left: 20px;
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			}
+
+			.vika1 {
+			font-size: 14px;
+			opacity: 50%;
+			color: #058DC7;
+			width: 100%;
+			}
+			.vika2{
+				font-size: 14px;
+			width: 100%;
+			}
+			.vika2::after {
+				content: '247';
+				font-size: 28px;
+				padding: 0 0 0 140px;
+				color: #EE144E;
+				
+			}
+			.vika3 {
+			font-size: 16px;
+			background: #2DD0C6;
+			opacity: 0.5;
+			width: 30%;
+			height: 50%;
+			}
+		}
+		// Виктор
+		.viktor {
+			width: 340px;
+			height: 88px;
+			display: flex;
+			width: 100%;
+			flex-direction: column;
+			justify-content: center;
+			padding: 5px 0 0 98px;
+			line-height: 9px;
+			background-color: #E7E6E1;
+				.viktorimg {
+				top: 215px;
+				left: 20px;
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				}
+	
+				.viktor1 {
+				font-size: 14px;
+				opacity: 50%;
+				color: #058DC7;
+				width: 100%;
+				}
+				.viktor2{
+					font-size: 14px;
+				width: 100%;
+				}
+				.viktor1::after {
+					content: '0';
+					font-size: 28px;
+					color: #A2A2A2;
+					position: relative;
+					top: 15px;
+					left: 115px;
+					
+				}
+				
+			}
+}
+// blok2 right
+.conteiner3__block2 {
+	width: 1523px;
+	height: 100%;
+	position: absolute;
+	left: 341px;
+	bottom: 3px;
+	.profilviktorai {
+	width: 1523px;
+	height: 169px;
+	position: relative;
+	left: 0;
+	bottom: 0;
+	.prof {
+		height: 100%;
+		display: flex;
+	}
+	.profimg {
+		z-index: 1;
+		margin: 15px 0 0 15px;
+		width: 58px;
+		height: 57px;
+	}
+	.proftext::before{
+		content: '';
+		z-index: 2;
+		background-image: url(/images/smaili.png);
+		position: absolute;
+		top: 60px;
+		right: 1450px;
+		width: 17px;
+		height: 17px;
+	}
+	.proftext::after{
+		content: '';
+		z-index: 2;
+		background-image: url(/images/glaz.png);
+		position: absolute;
+		top: 20px;
+		right: 1200px;
+		width: 15px;
+		height: 10px;
+	}
+	.proftext {
+		padding: 15px 0 0 20px;
+font-family: Open Sans;
+font-size: 25px;
+font-weight: 600;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
+.proftext1 {
+	position: relative;
+	top: 45px;
+	right: 205px;
+	color: #808080;
+}
+}
+// prof end
+.proftitle {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 1490px;
+	height: 70px;
+	.spisok {
+		display: flex;
+		justify-content: right;
+		text-align: right;
+	}
+	.profspisok1 {
+		padding: 10px 750px 0 0;
+	}
+	.profspisok2 {
+		padding: 5px 20px 0 0;
+	}
+	.profspisok2::before {
+		content: '';
+		background-image: url(/images/strelka.png);
+		position: absolute;
+		top: 15px;
+		right: 160px;
+		width: 11.61px;
+		height: 5.9px;
+
+	}
+}
+.cherta {
+	position: absolute;
+	right: 0;
+	top: 142px;
+	width: 100%;
+	border: 2px solid #E4E4E4;
+}
+.statistika {
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	top: 20px;
+	left: 339px;
+	width: 76%;
+	height: 40px;
+	.kolonka1 {
+		line-height: 8px;
+	}
+	.kolonka1::after {
+		content: '';
+		background-image: url(/images/strelkav.png);
+		width: 7.04px;
+		height: 4px;
+		position: absolute;
+		top: 20px;
+		left: 23px;
+	}
+
+	.kolonka2 {
+		line-height: 8px;
+	}
+	.kolonka2::after{
+		content: '';
+		background-image: url(/images/strelkaverh.png);
+		width: 7.04px;
+		height: 4px;
+		position: absolute;
+		top: 20px;
+		left: 365px;
+	}
+	.kolonka3 {
+		line-height: 8px;
+	}
+	.kolonka3::after {
+		content: '';
+		background-image: url(/images/verhkrasni.png);
+		width: 7.04px;
+		height: 4px;
+		position: absolute;
+		top: 20px;
+		left: 722px;
+	}
+	.kolonka4 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 0 10px 0;
+	}
+}
+// статистика конец
+.anomalii {
+	width: 100%;
+	height: 74px;
+	display: flex;
+	justify-content: space-around;
+}
+.topanomal {
+	padding: 0 0 0 50px;
+	color: #4D4D4D;
+	font-weight: 100;
+}
+.anomal1 {
+	border: 1px solid #EE144E;
+	width: 404px;
+	padding: 10px 0 0 0;
+}
+.anomal1::before{
+	content: '';
+	background-image: url(/images/stop.png);
+	width: 15px;
+	height: 13.9px;
+	position: absolute;
+	top: 245px;
+	left: 70px;
+}
+.anomal2 {
+	border: 1px solid #EE144E;
+	width: 404px;
+	padding: 10px 0 0 0;
+}
+.anomal2::before{
+	content: '';
+	background-image: url(/images/stop.png);
+	width: 15px;
+	height: 13.9px;
+	position: absolute;
+	top: 232px;
+	left: 630px;
+}
+.anomal3 {
+	border: 1px solid #EE144E;
+	width: 404px;
+	padding: 10px 0 0 0;
+}
+.anomal3::before{
+	content: '';
+	background-image: url(/images/stop.png);
+	width: 15px;
+	height: 13.9px;
+	position: absolute;
+	top: 232px;
+	left: 1170px;
+}
+.texta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+// anomalii end
+.pokazateli {
+	margin: 96.5px 0 0 50px;
+	width: 1420px;
+	height: 195px;
+	background-color: #F3F2F2;
+	border: 1px solid black;
+	display: flex;
+
+}
+.topanomal2{
+	position: relative;
+	top: 90px;
+	left: 50px;
+	color: #4D4D4D;
+	font-weight: 100;
+}
+}
